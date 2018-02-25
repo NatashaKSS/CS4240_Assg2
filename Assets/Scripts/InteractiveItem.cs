@@ -10,6 +10,7 @@ namespace VRStandardAssets.Utils {
         [SerializeField] private Material m_DoubleClickedMaterial;
         [SerializeField] private VRInteractiveItem m_InteractiveItem;
         [SerializeField] private Renderer m_Renderer;
+        [SerializeField] private Transform m_camera;
     
         private void Awake() {
             m_Renderer.material = m_NormalMaterial;
@@ -42,6 +43,7 @@ namespace VRStandardAssets.Utils {
         private void HandleClick() {
             Debug.Log("Show click state");
             m_Renderer.material = m_ClickedMaterial;
+            m_camera.position = this.transform.position;
         }
 
         private void HandleDoubleClick() {
