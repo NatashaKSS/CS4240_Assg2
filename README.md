@@ -1,15 +1,12 @@
-//===========================================
-// Name: Natasha Koh Sze Sze
-// CS4240 Interaction Design for VR / AR
-// Assignment 2
-//===========================================
+## CS4240 Interaction Design for VR / AR (Assignment 2)
 
-How to play:
+**How to play:**
 
 This is a simple carnival shooting game. The goal is to hit all 3 targets with a pickup item (rods on the floor).
 
------------------------------------------------------------------------------
-Controls:
+---
+
+**Controls:**
 
 In VR, you can look around to observe your surroundings.
 
@@ -23,13 +20,12 @@ Earn 3 points to win the game!
 
 You may restart the game anytime by aiming at the "Retry" signboard somewhere on your right (the sign is quite big).
 
------------------------------------------------------------------------------
-Downloaded Packages:
+---
+
+**Downloaded Packages:**
 
 These were the downloaded assets used in my game:
 
 - VRBox Unity package to control game objects in VR.
 
 All other interactive game objects were either modelled / scripted by me.
-
-================= END OF README =================
